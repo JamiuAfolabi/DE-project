@@ -1,4 +1,0 @@
-DE-project/*.csv
-.terraform/*
-terraform*.*
-.terraform.lock.hcl
