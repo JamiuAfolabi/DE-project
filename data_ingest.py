@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 
-engine = create_engine('postgresql://ny_taxi:password@192.168.147.134:5432/ny_taxi')
+engine = create_engine('postgresql://user:password@ip:5432/db')
 csv_name = 'yellow_tripdata.csv'
 table_name = 'ny_taxi'
 
