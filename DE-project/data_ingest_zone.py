@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 
 
 def zone_ingest():
-    engine = create_engine('postgresql://ny_taxi:password@192.168.147.134:5432/ny_taxi')
+    engine = create_engine('postgresql://ny_taxi:password@host:5432/ny_taxi')
     csv_name = 'taxi+_zone_lookup.csv'
     table_name = 'zones'
 
