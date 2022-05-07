@@ -12,8 +12,8 @@ services:
   pgadmin:
     image: dpage/pgadmin4
     environment:
-      - PGADMIN_DEFAULT_EMAIL=jmoh.tunde@gmail.com
-      - PGADMIN_DEFAULT_PASSWORD=root
+      - PGADMIN_DEFAULT_EMAIL=@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=password
     ports:
       - "8080:80"
   ingest:
