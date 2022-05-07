@@ -15,8 +15,8 @@ A postgres docker container was instantiated with the script below.
       
 A pgadmin was instantiated with the script below
     docker run -it \
-      -e PGADMIN_DEFAULT_EMAIL="jmoh.tunde@gmail.com" \
-      -e PGADMIN_DEFAULT_PASSWORD="root" \
+      -e PGADMIN_DEFAULT_EMAIL="mail@gmail.com" \
+      -e PGADMIN_DEFAULT_PASSWORD="password" \
       -p 8080:80 \
       --network pg-network \
       --name pg_admin \
